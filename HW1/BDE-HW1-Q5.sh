@@ -7,6 +7,7 @@ touch master.txt
 git add -A
 git commit -m "first commit"
 
+# 2048 = 2 ^ 11
 for n in {0..11..1}; do
     init_number1=$((2**n))
     init_number2=$((init_number1+1))
@@ -17,7 +18,7 @@ for n in {0..11..1}; do
     git checkout -b $branch_name
 
     # create files
-    for i in {1..10..1}; do
+    for i in {1..1000..1}; do
         file_extension=".txt"
         file_name="$i$file_extension"
         touch $file_name
