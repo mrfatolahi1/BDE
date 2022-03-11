@@ -1,5 +1,4 @@
-echo "Enter directory path: "
-read directory_path
+directory_path=$1
 
 if [ ! -d "$directory_path" ]
 then
