@@ -1,4 +1,4 @@
-expected_value=10
+expected_value=153
 declare -a array
 for i in {0..100000..1}; do 
      array[i]=$RANDOM
@@ -10,7 +10,7 @@ zigma=0
 
 for range_first_number in {0..32767..50}; do
     echo $range_first_number
-    range_last_number=$(( range_first_number + 10 ))
+    range_last_number=$(( range_first_number + 50 ))
     number_of_random_numbers_in_range=0
     for random_number in "${array[@]}"; do
         if [[ $random_number -ge $range_first_number && $random_number -lt $range_last_number ]]; then
