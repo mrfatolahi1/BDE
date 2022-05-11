@@ -6,7 +6,7 @@ object Q1_Problem3_Scala {
       .map(x => x.substring(2, x.length-2).split("\", \"")(0)).toList
     val namesSet = namesList.toSet
     for (name <- namesSet){
-      println(name, namesList.count(x => x.equals(name)))
+      println(name/*, namesList.count(x => x.equals(name))*/)
     }
   }
 }
