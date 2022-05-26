@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fb6c91-788c-45cf-be2e-db5e50b0c582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$b3eb379bf3cbc7626225$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$b3eb379bf3cbc7626225.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/ssExtractDependencies/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bde-hw3-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bde-hw3-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bde-hw3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bde-hw3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d4f0898945489fdbf0b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d4f0898945489fdbf0b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d4f0898945489fdbf0b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4781a16f6fe86bfc901b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4781a16f6fe86bfc901b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4781a16f6fe86bfc901b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c0d1bb82f633bd600c9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c0d1bb82f633bd600c9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c0d1bb82f633bd600c9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc8cad05d93902b5d7a1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc8cad05d93902b5d7a1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc8cad05d93902b5d7a1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7fcaf92b883e8cc89a8c$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$139727c9aa3b446f5d67$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7fcaf92b883e8cc89a8c.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$07988002d936f9a0bbc3.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7fcaf92b883e8cc89a8c.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$139727c9aa3b446f5d67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cc51945527d95856817$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$07988002d936f9a0bbc3$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cc51945527d95856817.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$139727c9aa3b446f5d67.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cc51945527d95856817.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$07988002d936f9a0bbc3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eb1efad8bfd47c817453$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eb1efad8bfd47c817453.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$1eca7d5f91ee111d5383.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eb1efad8bfd47c817453.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f7975ed9d702853f5474$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$1eca7d5f91ee111d5383$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f7975ed9d702853f5474.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$b3eb379bf3cbc7626225.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f7975ed9d702853f5474.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$1eca7d5f91ee111d5383.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
@@ -34,10 +40,26 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Q1_Problem1_Scala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Q1_Problem1_Scala.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/Q1_Problem1_Spark.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Q1_Problem1_Spark.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/Q1_Problem3_Scala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Q1_Problem3_Scala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Q2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Q2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Sample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem1_Scala$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem1_Scala$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem1_Spark$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem1_Spark$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem3_Scala$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q1_Problem3_Scala$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Q2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Sample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,16 +91,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mohammadreza/Documents/BDE/HW3/BDE-HW3/src/test/scala&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/scala" />
@@ -88,15 +110,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Q2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="K" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="K" />
       <module name="bde-hw3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1_Problem2_Spark" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Q1_Problem2_Spark" />
+    <configuration name="Q1_Problem2_Scala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_Problem2_Scala" />
+      <module name="bde-hw3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_Problem3_Scala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_Problem3_Scala" />
       <module name="bde-hw3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,27 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="bde-hw3" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="javaOptions" value="-Djline.terminal=NONE" />
-      <option name="myConsoleArgs" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Q2" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.K" />
         <item itemvalue="Application.Q1_Problem3_Spark" />
-        <item itemvalue="Application.Q1_Problem2_Spark" />
-        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="Application.Q1_Problem3_Scala" />
+        <item itemvalue="Application.Q1_Problem2_Scala" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +175,14 @@
       <workItem from="1652240404394" duration="3481000" />
       <workItem from="1652259789546" duration="15798000" />
       <workItem from="1652288211452" duration="2417000" />
+      <workItem from="1652363461184" duration="478000" />
+      <workItem from="1652363992500" duration="291000" />
+      <workItem from="1652364333911" duration="1921000" />
+      <workItem from="1652377624964" duration="6590000" />
+      <workItem from="1652458382829" duration="358000" />
+      <workItem from="1652463131046" duration="2366000" />
+      <workItem from="1652567459001" duration="5006000" />
+      <workItem from="1653577726721" duration="608000" />
     </task>
     <servers />
   </component>

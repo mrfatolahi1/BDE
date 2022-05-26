@@ -11,18 +11,9 @@ object Q1_Problem1_Scala {
     var words: ListBuffer[String] = ListBuffer()
     val linesList = lines.toList
     for (line <- linesList){
-//      for (m <- line){
-//        println(m)
-//      }
       line._2.split(" ").map(x => words.append(x))
     }
-//    println(words)
-//    println(words.length)
-
     val words2: List[String] = words.toSet.toList
-//    println(words2)
-//    println(words2.length)
-
 
     for (word <- words2){
       val docs: ListBuffer[String] = ListBuffer()

@@ -1,29 +1,30 @@
-import org.apache.spark.SparkContext
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions.{col, countDistinct, udf}
 
 object Q2 {
-  def main(args: Array[String]): Unit = {
-    val sparkSession: SparkSession = SparkSession.builder()
-      .master("local[1]")
-      .appName("SparkByExample")
-      .getOrCreate()
-    val sparkContext: SparkContext = sparkSession.sparkContext
-    val trainCSVRDD = sparkContext.textFile("/home/mohammadreza/Documents/data/facebook-recruiting-iii-keyword-extraction/Train.csv")
+  def main(args:Array[String]): Unit ={
 
-    var df = sparkSession.read.format(source = "csv").option("header", "true").load("/home/mohammadreza/Documents/data/facebook-recruiting-iii-keyword-extraction/Train.csv")
-//    println(d)
-
-    val tf = df.toDF("Id","Title","Body","Tags")
-      .groupBy("id", "title")
-      .count.withColumnRenamed("count", "tf")
-      .take(100)/*.foreach(println(_))*/
-
-    df = df.groupBy("token").agg(countDistinct("id") as "df")
-    val docCount = df.count
-    val calcdfUdf = udf { df: Long => math.log((docCount + 1)/(df + 1))}
-    val idf = df.withColumn("idf", calcdfUdf(col("df")))
-    idf.take(100).foreach(println(_))
+    val spark = SparkSession.builder
+      .appName("SparkSessionExample")
+      .master("local[*]")
+      .getOrCreate
+    val initDF = spark.read.format("csv").option("header", "true").load("/media/mohammadreza/ForWatch/data/facebook-recruiting-iii-keyword-extraction/Train.csv")
+    val RDD=initDF.toDF("id","title","body","tags").rdd
+    val tf=RDD.map(x => ((x(0),x(1)),1)).reduceByKey(_+_)
+    val DF=RDD.map(x => {
+      val set = scala.collection.mutable.Set[Any]()
+      set += x(0)
+      (x(0),set)
+    }).reduceByKey(_++_).map(p=>(p._1,p._2.size))
+    val idf = DF.map(x => (x._1,Math.log((DF.count() + 1) / (x._2 + 1))))
+    tf
+      .map(x => (x._1._2, (x._1._1, x._2)))
+      .join(idf)
+      .map(x => ((x._1, x._2._1._1), x._2._2 * x._2._1._2))
+      .filter(x => x._1._2 != null)
+      .filter(x => {x._1._2.toString.length >= 3})
+      .sortBy(-_._2)
+      .take(100)
+      .foreach(println)
 
   }
 }
